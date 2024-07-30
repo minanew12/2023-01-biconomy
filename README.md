@@ -22,8 +22,6 @@ The C4audit output for the contest can be found [here](https://gist.github.com/P
 
 Biconomy Smart Account is a smart contract wallet that builds on core concepts of Gnosis / Argent safes and implements an interface to support calls from [account abstraction](https://eips.ethereum.org/EIPS/eip-4337) Entry Point contract. We took all the the good parts of existing smart contract wallets.
 
-These smart wallets have a single owner (1/1 Multisig) and are designed in such a way that it is
-
 - Cheap to deploy copies of a base wallet
 - Wallet addresses are counterfactual in nature (you can know the address in advance and users will have the same address across all EVM chains)
 - Deployment cost can be sponsored (gasless transactions by a relayer)
